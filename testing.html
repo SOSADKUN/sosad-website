@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="專業網頁設計服務，幫助您建立一個專業的網站，提升品牌形象。">
+    <title>專業網頁設計服務 | 提升品牌形象</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+            background-image: url('https://via.placeholder.com/1920x1080');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3.5em;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+        }
+        .cta {
+            background-color: #ff6f61;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0px 8px 12px rgba(0,0,0,0.2);
+        }
+        .cta button {
+            background-color: #333;
+            color: white;
+            font-size: 1.5em;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        .cta button:hover {
+            background-color: #ff6f61;
+            transform: scale(1.1);
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+        section {
+            padding: 50px 0;
+        }
+        .contact-form {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 12px 0;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 15px;
+            background-color: #ff6f61;
+            color: white;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .contact-form button:hover {
+            background-color: #e2574c;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer p {
+            font-size: 1em;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>專業網頁設計服務</h1>
+    <p>提升您的品牌形象，建立專業的網站</p>
+</header>
+
+<section class="container">
+    <h2>我們的服務</h2>
+    <p>我們為個人品牌、中小企業提供客製化網站設計服務，無需程式知識，簡單易用。</p>
+    <ul>
+        <li>響應式網站設計（適用各種設備）</li>
+        <li>SEO 優化（讓您的網站在 Google 上排名更高）</li>
+        <li>快速交付，並提供維護服務</li>
+    </ul>
+</section>
+
+<section class="cta">
+    <h2>立即聯絡我們！</h2>
+    <p>請填寫下方表單，讓我們知道您的需求，我們會盡快與您聯繫。</p>
+    <button onclick="document.getElementById('contact-form').scrollIntoView();">開始設計您的網站</button>
+</section>
+
+<section class="container">
+    <div id="contact-form" class="contact-form">
+        <h2>聯絡我們</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="姓名" required>
+            <input type="email" name="email" placeholder="電子郵件" required>
+            <textarea name="message" placeholder="您的需求" rows="5" required></textarea>
+            <button type="submit">提交</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 專業網頁設計服務 | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
